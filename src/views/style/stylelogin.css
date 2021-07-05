@@ -1,0 +1,269 @@
+body{
+    background-color: #0C2B5B;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.arrow {
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 2px;
+    margin-bottom: 3px;
+    margin-left: 10px;
+  }
+
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+
+.container{
+    overflow: hidden;
+}
+
+.header{
+    background-color: #0C2B5B;
+    width: 80.5%;
+    overflow: hidden;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+}
+
+.header .logo{
+    float: left;
+}
+
+.header .navi{
+    float: right;
+    margin-top: 25px;
+}
+
+.header .navi li{
+    float: right;
+    margin-left: 48px;
+    display: block;
+    font-size: 16px;
+    font-family: 'DM Sans', sans-serif;
+    color: white;
+}
+
+.header .navi li a{
+    color: white;
+    text-decoration: none;
+}
+
+
+.awal{
+    margin-top: 200px;
+    margin-bottom: 180px;
+}
+
+
+.awal img{
+    float: right;
+    width: 500px;
+}
+
+.icon-kelas h1{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 55px;
+    margin-bottom: -15px;
+    margin-top: -5px;
+}
+
+.icon-kelas p{
+    font-family: 'DM Sans', sans-serif;
+    color: white;
+    font-size: 25px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+}
+
+.icon-kelas .login{
+    font-family: 'DM Sans', sans-serif;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    margin-top: 50px;
+    margin-left: 10px;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.btn-daftar{
+    font-family: 'DM Sans', sans-serif;
+    display: block;
+    border: 0;
+    font-size: 15px;
+    padding: 7px 27px;
+    border-radius: 15px;
+    margin-top: -6px;
+    color: #0c2b5b;
+    font-weight: bolder;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+table{
+    margin-top: 7px;
+}
+
+table tr td a{
+    text-decoration: none;
+}
+
+.kartu{
+    margin: 100px;
+    margin-bottom: 150px;
+}
+
+.dropbtn {
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+ 
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+
+ .mengapa {
+     color: black;
+     width: 100%;
+ }
+
+
+.tabel1{
+    position: absolute;
+    top: 18px;
+    width: 100%;
+    font-style: "Arial";
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+.dropbtn {
+    border: none;
+    font-style: "Arial";
+    font-size: 20px;
+      background-color: #0C2B5B;
+      color: white;
+}
+
+.dropdown {
+      position: relative;
+      display: inline-block;
+}
+
+.dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: white;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+}
+
+.dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+}
+.kosong1{
+    border: none;
+    font-style: "Arial";
+    font-size: 20px;
+    background-color: white;
+    border-radius: 6px;
+}
+.tengah{
+    width: 1503px;
+    height: 1311px;
+    left: 0px;
+    top: 0px;
+    background: #0C2B5B;
+}
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: white;color: black;}
+
+.kotaklogin{
+    position: absolute;
+    width: 517px;
+    height: 480px;
+    left: 520px;
+    top: 150px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 36px rgba(0, 0, 0, 0.12);
+    border-radius: 45px;
+}
+.kata{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 130.5%;
+    /* or 52px */
+
+    color: #0C2B5B;
+}
+.username{
+    height: 41px;
+    width: 388px;
+    background: #F0F2F3;
+    border-radius: 16px;
+    border: 0px;
+}
+
+.login{
+    height: 51px;
+    width: 388px;
+    border-radius: 16px;
+    background: #204A89;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+.daftar{
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #263238;
+
+}
